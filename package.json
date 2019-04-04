@@ -1,0 +1,20 @@
+{
+  "name": "tutorial-mocha",
+  "version": "1.0.0",
+  "description": "Teaching the basics of mocha testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pterobyte/tutorial-mocha.git"
+  },
+  "keywords": [],
+  "author": "JT Houk <jt1992@gmail.com> (https://www.jt-houk.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pterobyte/tutorial-mocha/issues"
+  },
+  "homepage": "https://github.com/Pterobyte/tutorial-mocha#readme"
+}
