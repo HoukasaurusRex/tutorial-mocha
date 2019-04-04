@@ -1,20 +1,21 @@
 {
   "name": "tutorial-mocha",
-  "version": "1.0.0",
-  "description": "Teaching the basics of mocha testing framework",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "test": "mocha routes/*.test.js public/**/*.test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pterobyte/tutorial-mocha.git"
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.9",
+    "express": "^4.16.0",
+    "express-handlebars": "^3.0.2",
+    "morgan": "^1.9.0"
   },
-  "keywords": [],
-  "author": "JT Houk <jt1992@gmail.com> (https://www.jt-houk.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Pterobyte/tutorial-mocha/issues"
-  },
-  "homepage": "https://github.com/Pterobyte/tutorial-mocha#readme"
+  "devDependencies": {
+    "expect": "^24.7.1",
+    "mocha": "^6.0.2",
+    "supertest": "^4.0.2"
+  }
 }
