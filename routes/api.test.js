@@ -6,11 +6,14 @@ const data = {
   thing1: 'im a thing',
   thing2: 'me too'
 }
+
+const bobby = request.agent(app)
+
 // First describe the route you're testing
 describe('GET /data', () => {
   // Define what your test should return
   it('should return data', (done) => {
-    request(app)
+    bobby
       .post('/data')
       .send(data)
       .expect(200)

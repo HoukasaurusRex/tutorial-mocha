@@ -7,13 +7,14 @@ const insults = require('./insults')
 // First describe the module you're testing
 describe('MODULE Insults', () => {
   // Define what your test should return
-  it('should return an insult', (done) => {
+  it('should return yous a bitch', (done) => {
     // Here's where you use the expect module to evaluate the output of a function
     /**
      * Challenge:
      * Make this test pass
      */
-    expect(insults(1)).toBe('Yous a bitch')
+    expect(insults(0)).toBe('Yous a bitch')
+    expect(insults(1)).toBe('Yuh face look like a potat')
     /**
      * Challenge:
      * Test the other outputs from insults()
