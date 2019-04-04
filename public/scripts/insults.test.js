@@ -1,4 +1,4 @@
-const expect = require('expect')
+const expect = require('expect') // this guy evaluates the returned values https://jestjs.io/docs/en/expect
 const insults = require('./insults')
 
 /**
@@ -9,7 +9,11 @@ describe('MODULE Insults', () => {
   // Define what your test should return
   it('should return an insult', (done) => {
     // Here's where you use the expect module to evaluate the output of a function
-    expect(insults(0)).toBe('Yous a bitch')
+    /**
+     * Challenge:
+     * Make this test pass
+     */
+    expect(insults(1)).toBe('Yous a bitch')
     /**
      * Challenge:
      * Test the other outputs from insults()

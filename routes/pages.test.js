@@ -1,4 +1,4 @@
-const request = require('supertest') // this dude is basically fetch with extra shit
+const request = require('supertest') // this dude is basically fetch with extra shit https://www.npmjs.com/package/supertest
 const app = require('../app') // here's our boi we wanna get the routes from
 
 // First describe the route you're testing
